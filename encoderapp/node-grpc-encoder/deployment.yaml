@@ -6,7 +6,7 @@ metadata:
     app: grpc-encoder
   name: grpc-encoder
 spec:
-  replicas: 10
+  replicas: 11
     matchLabels:
       app: grpc-encoder
   strategy: {}
