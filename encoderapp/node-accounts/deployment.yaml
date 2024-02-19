@@ -6,7 +6,7 @@ metadata:
     app: fastify-accounts
   name: fastify-accounts
 spec:
-  replicas: 10
+  replicas: 2
   selector:
     matchLabels:
       app: fastify-accounts
@@ -21,7 +21,7 @@ spec:
       - image: zetogk/argocdexample-accounts:v3
         name: argocdexample-accounts
         envFrom:
-          - configMapRef:
-              name: cm-accounts
+        - configMapRef:
+            name: cm-accounts
         resources: {}
 status: {}
