@@ -18,7 +18,7 @@ spec:
         app: fastify-passwords
     spec:
       containers:
-      - image: zetogk/argocdexample-passwords:latest
+      - image: zetogk/argocdexample-passwords:v4
         name: argocdexample-passwords
         envFrom:
           - configMapRef:

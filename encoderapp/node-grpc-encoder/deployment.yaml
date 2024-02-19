@@ -18,7 +18,7 @@ spec:
         app: grpc-encoder
     spec:
       containers:
-      - image: zetogk/argocdexample-encoder:latest
+      - image: zetogk/argocdexample-encoder:v4
         name: argocdexample-accounts
         envFrom:
           - configMapRef:

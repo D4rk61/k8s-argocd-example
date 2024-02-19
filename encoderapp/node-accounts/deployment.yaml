@@ -18,7 +18,7 @@ spec:
         app: fastify-accounts
     spec:
       containers:
-      - image: zetogk/argocdexample-accounts:latest
+      - image: zetogk/argocdexample-accounts:v3
         name: argocdexample-accounts
         envFrom:
         - configMapRef:
